@@ -1,0 +1,2520 @@
+{
+  "projects": {
+    "PRJEB105536": {
+      "accession": "PRJEB105536",
+      "name": "BGE_WP11_Cricetus cricetus - European Hamster_part2 ",
+      "is_umbrella": false,
+      "children": [],
+      "parents": [
+        "PRJEB109737"
+      ]
+    },
+    "PRJEB105601": {
+      "accession": "PRJEB105601",
+      "name": "BGE_WP11_Cricetus cricetus - European Hamster_part1",
+      "is_umbrella": false,
+      "children": [],
+      "parents": [
+        "PRJEB109737"
+      ]
+    },
+    "PRJEB106061": {
+      "accession": "PRJEB106061",
+      "name": "BGE - WP12 - Intraspecific Genetic Diversity of Insect Pollinators",
+      "is_umbrella": false,
+      "children": [],
+      "parents": []
+    },
+    "PRJEB108396": {
+      "accession": "PRJEB108396",
+      "name": "PC",
+      "is_umbrella": false,
+      "children": [],
+      "parents": [
+        "PRJEB108399"
+      ]
+    },
+    "PRJEB108398": {
+      "accession": "PRJEB108398",
+      "name": "BGE-metabarcoding",
+      "is_umbrella": true,
+      "children": [
+        "PRJEB108399",
+        "PRJEB108475",
+        "PRJEB108476"
+      ],
+      "parents": []
+    },
+    "PRJEB108399": {
+      "accession": "PRJEB108399",
+      "name": "Bulk-Sampling",
+      "is_umbrella": true,
+      "children": [
+        "PRJEB108396",
+        "PRJEB108401"
+      ],
+      "parents": [
+        "PRJEB108398"
+      ]
+    },
+    "PRJEB108401": {
+      "accession": "PRJEB108401",
+      "name": "HMS",
+      "is_umbrella": false,
+      "children": [],
+      "parents": [
+        "PRJEB108399"
+      ]
+    },
+    "PRJEB108475": {
+      "accession": "PRJEB108475",
+      "name": "Ecological Restoration Soil - Chronosequences",
+      "is_umbrella": false,
+      "children": [],
+      "parents": [
+        "PRJEB108398"
+      ]
+    },
+    "PRJEB108476": {
+      "accession": "PRJEB108476",
+      "name": "Marine Invasive Species",
+      "is_umbrella": false,
+      "children": [],
+      "parents": [
+        "PRJEB108398"
+      ]
+    },
+    "PRJEB109737": {
+      "accession": "PRJEB109737",
+      "name": "ERGA-BGE APPLICATIONS",
+      "is_umbrella": true,
+      "children": [
+        "PRJEB100960",
+        "PRJEB101496",
+        "PRJEB101756",
+        "PRJEB101895",
+        "PRJEB102571",
+        "PRJEB103070",
+        "PRJEB103943",
+        "PRJEB104322",
+        "PRJEB105118",
+        "PRJEB105119",
+        "PRJEB105467",
+        "PRJEB105536",
+        "PRJEB105583",
+        "PRJEB105601",
+        "PRJEB105709",
+        "PRJEB105910",
+        "PRJEB106252",
+        "PRJEB106402",
+        "PRJEB106411",
+        "PRJEB108586",
+        "PRJEB109104",
+        "PRJEB98878",
+        "PRJNA1238330"
+      ],
+      "parents": [
+        "PRJEB43510"
+      ]
+    },
+    "PRJEB43510": {
+      "accession": "PRJEB43510",
+      "name": "The European Reference Genome Atlas (ERGA)",
+      "is_umbrella": true,
+      "children": [
+        "PRJEB109737",
+        "PRJEB33226",
+        "PRJEB40665",
+        "PRJEB47820",
+        "PRJEB47985",
+        "PRJEB49197",
+        "PRJEB49670",
+        "PRJEB61747",
+        "PRJEB64126",
+        "PRJEB66264",
+        "PRJEB71705",
+        "PRJNA1270038",
+        "PRJNA712951"
+      ],
+      "parents": [
+        "PRJNA533106"
+      ]
+    },
+    "PRJEB61747": {
+      "accession": "PRJEB61747",
+      "name": "European Reference Genome Atlas (ERGA): Biodiversity Genomics Europe (BGE) Project Genome Data and Assemblies",
+      "is_umbrella": true,
+      "children": [
+        "PRJEB100764",
+        "PRJEB101764",
+        "PRJEB102220",
+        "PRJEB105441",
+        "PRJEB105535",
+        "PRJEB105543",
+        "PRJEB105550",
+        "PRJEB105598",
+        "PRJEB107049",
+        "PRJEB107735",
+        "PRJEB107738",
+        "PRJEB107741",
+        "PRJEB107744",
+        "PRJEB107747",
+        "PRJEB108595",
+        "PRJEB109731",
+        "PRJEB109965",
+        "PRJEB109966",
+        "PRJEB110002",
+        "PRJEB110569",
+        "PRJEB67580",
+        "PRJEB73452",
+        "PRJEB74497",
+        "PRJEB75163",
+        "PRJEB75165",
+        "PRJEB75270",
+        "PRJEB75414",
+        "PRJEB75621",
+        "PRJEB76507",
+        "PRJEB76516",
+        "PRJEB76558",
+        "PRJEB76560",
+        "PRJEB76562",
+        "PRJEB76564",
+        "PRJEB76566",
+        "PRJEB76568",
+        "PRJEB76570",
+        "PRJEB76572",
+        "PRJEB76610",
+        "PRJEB76612",
+        "PRJEB77125",
+        "PRJEB77131",
+        "PRJEB77214",
+        "PRJEB77217",
+        "PRJEB77220",
+        "PRJEB77223",
+        "PRJEB77226",
+        "PRJEB77229",
+        "PRJEB77232",
+        "PRJEB77235",
+        "PRJEB77238",
+        "PRJEB77241",
+        "PRJEB77244",
+        "PRJEB77247",
+        "PRJEB77250",
+        "PRJEB77253",
+        "PRJEB77256",
+        "PRJEB77259",
+        "PRJEB77262",
+        "PRJEB77265",
+        "PRJEB77280",
+        "PRJEB77281",
+        "PRJEB77282",
+        "PRJEB77283",
+        "PRJEB77285",
+        "PRJEB77286",
+        "PRJEB77287",
+        "PRJEB77288",
+        "PRJEB77350",
+        "PRJEB77479",
+        "PRJEB77481",
+        "PRJEB77483",
+        "PRJEB77485",
+        "PRJEB77487",
+        "PRJEB77613",
+        "PRJEB77643",
+        "PRJEB77644",
+        "PRJEB77645",
+        "PRJEB77646",
+        "PRJEB77647",
+        "PRJEB77648",
+        "PRJEB77649",
+        "PRJEB77650",
+        "PRJEB77651",
+        "PRJEB77652",
+        "PRJEB77654",
+        "PRJEB77747",
+        "PRJEB77778",
+        "PRJEB77784",
+        "PRJEB77787",
+        "PRJEB77793",
+        "PRJEB77794",
+        "PRJEB77797",
+        "PRJEB77800",
+        "PRJEB77813",
+        "PRJEB77820",
+        "PRJEB77825",
+        "PRJEB77828",
+        "PRJEB77831",
+        "PRJEB77834",
+        "PRJEB77889",
+        "PRJEB77892",
+        "PRJEB77895",
+        "PRJEB77917",
+        "PRJEB77928",
+        "PRJEB78430",
+        "PRJEB78499",
+        "PRJEB78500",
+        "PRJEB78501",
+        "PRJEB78502",
+        "PRJEB79676",
+        "PRJEB79678",
+        "PRJEB79680",
+        "PRJEB79682",
+        "PRJEB79684",
+        "PRJEB79686",
+        "PRJEB79688",
+        "PRJEB79972",
+        "PRJEB79975",
+        "PRJEB79978",
+        "PRJEB79981",
+        "PRJEB79984",
+        "PRJEB79987",
+        "PRJEB80085",
+        "PRJEB80817",
+        "PRJEB81230",
+        "PRJEB81231",
+        "PRJEB81311",
+        "PRJEB81312",
+        "PRJEB81320",
+        "PRJEB81695",
+        "PRJEB82553",
+        "PRJEB84018",
+        "PRJEB84135",
+        "PRJEB84137",
+        "PRJEB84139",
+        "PRJEB84141",
+        "PRJEB84143",
+        "PRJEB84145",
+        "PRJEB84147",
+        "PRJEB84150",
+        "PRJEB84153",
+        "PRJEB84156",
+        "PRJEB84159",
+        "PRJEB84162",
+        "PRJEB84165",
+        "PRJEB84168",
+        "PRJEB84171",
+        "PRJEB84174",
+        "PRJEB84177",
+        "PRJEB84180",
+        "PRJEB84189",
+        "PRJEB84444",
+        "PRJEB84446",
+        "PRJEB85640",
+        "PRJEB85641",
+        "PRJEB85642",
+        "PRJEB85943",
+        "PRJEB85973",
+        "PRJEB86136",
+        "PRJEB86266",
+        "PRJEB86343",
+        "PRJEB86373",
+        "PRJEB86415",
+        "PRJEB86417",
+        "PRJEB86418",
+        "PRJEB86419",
+        "PRJEB86420",
+        "PRJEB86423",
+        "PRJEB87465",
+        "PRJEB87517",
+        "PRJEB88027",
+        "PRJEB88055",
+        "PRJEB88057",
+        "PRJEB88059",
+        "PRJEB88061",
+        "PRJEB88157",
+        "PRJEB88545",
+        "PRJEB88611",
+        "PRJEB88612",
+        "PRJEB88686",
+        "PRJEB88688",
+        "PRJEB89024",
+        "PRJEB89505",
+        "PRJEB89576",
+        "PRJEB89585",
+        "PRJEB89647",
+        "PRJEB89652",
+        "PRJEB89974",
+        "PRJEB89984",
+        "PRJEB90035",
+        "PRJEB90039",
+        "PRJEB90080",
+        "PRJEB90081",
+        "PRJEB90120",
+        "PRJEB90133",
+        "PRJEB90439",
+        "PRJEB90442",
+        "PRJEB90488",
+        "PRJEB90573",
+        "PRJEB90916",
+        "PRJEB90918",
+        "PRJEB90920",
+        "PRJEB90922",
+        "PRJEB90924",
+        "PRJEB90926",
+        "PRJEB90928",
+        "PRJEB90930",
+        "PRJEB90932",
+        "PRJEB91189",
+        "PRJEB91191",
+        "PRJEB91193",
+        "PRJEB91332",
+        "PRJEB91333",
+        "PRJEB91334",
+        "PRJEB91378",
+        "PRJEB91381",
+        "PRJEB91431",
+        "PRJEB91433",
+        "PRJEB91434",
+        "PRJEB91436",
+        "PRJEB91438",
+        "PRJEB91488",
+        "PRJEB91489",
+        "PRJEB91533",
+        "PRJEB91534",
+        "PRJEB91535",
+        "PRJEB91538",
+        "PRJEB91540",
+        "PRJEB91541",
+        "PRJEB91556",
+        "PRJEB94390",
+        "PRJEB94391",
+        "PRJEB94392",
+        "PRJEB94393",
+        "PRJEB94586",
+        "PRJEB94589",
+        "PRJEB94592",
+        "PRJEB94595",
+        "PRJEB94598",
+        "PRJEB94601",
+        "PRJEB94604",
+        "PRJEB94607",
+        "PRJEB94610",
+        "PRJEB94613",
+        "PRJEB94616",
+        "PRJEB94619",
+        "PRJEB94622",
+        "PRJEB94625",
+        "PRJEB94628",
+        "PRJEB94631",
+        "PRJEB94634",
+        "PRJEB94637",
+        "PRJEB94640",
+        "PRJEB94643",
+        "PRJEB94646",
+        "PRJEB94925",
+        "PRJEB94926",
+        "PRJEB95940",
+        "PRJEB95970",
+        "PRJEB95974",
+        "PRJEB96039",
+        "PRJEB96084",
+        "PRJEB96179",
+        "PRJEB96181",
+        "PRJEB96183",
+        "PRJEB96185",
+        "PRJEB96346",
+        "PRJEB96352",
+        "PRJEB96354",
+        "PRJEB96355",
+        "PRJEB96358",
+        "PRJEB96367",
+        "PRJEB96368",
+        "PRJEB96369",
+        "PRJEB96371",
+        "PRJEB96372",
+        "PRJEB96377",
+        "PRJEB96378",
+        "PRJEB96380",
+        "PRJEB96405",
+        "PRJEB96409",
+        "PRJEB96411",
+        "PRJEB96485",
+        "PRJEB96486",
+        "PRJEB96488",
+        "PRJEB96490",
+        "PRJEB96492",
+        "PRJEB96495",
+        "PRJEB96498",
+        "PRJEB96499",
+        "PRJEB96500",
+        "PRJEB96508",
+        "PRJEB96511",
+        "PRJEB96512",
+        "PRJEB96516",
+        "PRJEB96519",
+        "PRJEB96522",
+        "PRJEB96525",
+        "PRJEB96528",
+        "PRJEB96531",
+        "PRJEB96534",
+        "PRJEB98373"
+      ],
+      "parents": [
+        "PRJEB43510"
+      ]
+    },
+    "PRJEB78703": {
+      "accession": "PRJEB78703",
+      "name": "BGE",
+      "is_umbrella": false,
+      "children": [],
+      "parents": []
+    }
+  },
+  "edges": [
+    [
+      "PRJEB43510",
+      "PRJEB61747"
+    ],
+    [
+      "PRJEB108398",
+      "PRJEB108475"
+    ],
+    [
+      "PRJEB109737",
+      "PRJEB105536"
+    ],
+    [
+      "PRJEB108398",
+      "PRJEB108476"
+    ],
+    [
+      "PRJEB43510",
+      "PRJEB109737"
+    ],
+    [
+      "PRJEB108398",
+      "PRJEB108399"
+    ],
+    [
+      "PRJEB109737",
+      "PRJEB105601"
+    ],
+    [
+      "PRJEB108399",
+      "PRJEB108401"
+    ],
+    [
+      "PRJEB108399",
+      "PRJEB108396"
+    ]
+  ],
+  "missing_neighbours": {
+    "PRJEB100960": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJEB101496": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJEB101756": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJEB101895": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJEB102571": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJEB103070": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJEB103943": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJEB104322": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJEB105118": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJEB105119": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJEB105467": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJEB105583": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJEB105709": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJEB105910": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJEB106252": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJEB106402": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJEB106411": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJEB108586": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJEB109104": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJEB98878": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJNA1238330": {
+      "referenced_by": [
+        "PRJEB109737"
+      ],
+      "role": "child"
+    },
+    "PRJEB33226": {
+      "referenced_by": [
+        "PRJEB43510"
+      ],
+      "role": "child"
+    },
+    "PRJEB40665": {
+      "referenced_by": [
+        "PRJEB43510"
+      ],
+      "role": "child"
+    },
+    "PRJEB47820": {
+      "referenced_by": [
+        "PRJEB43510"
+      ],
+      "role": "child"
+    },
+    "PRJEB47985": {
+      "referenced_by": [
+        "PRJEB43510"
+      ],
+      "role": "child"
+    },
+    "PRJEB49197": {
+      "referenced_by": [
+        "PRJEB43510"
+      ],
+      "role": "child"
+    },
+    "PRJEB49670": {
+      "referenced_by": [
+        "PRJEB43510"
+      ],
+      "role": "child"
+    },
+    "PRJEB64126": {
+      "referenced_by": [
+        "PRJEB43510"
+      ],
+      "role": "child"
+    },
+    "PRJEB66264": {
+      "referenced_by": [
+        "PRJEB43510"
+      ],
+      "role": "child"
+    },
+    "PRJEB71705": {
+      "referenced_by": [
+        "PRJEB43510"
+      ],
+      "role": "child"
+    },
+    "PRJNA1270038": {
+      "referenced_by": [
+        "PRJEB43510"
+      ],
+      "role": "child"
+    },
+    "PRJNA712951": {
+      "referenced_by": [
+        "PRJEB43510"
+      ],
+      "role": "child"
+    },
+    "PRJNA533106": {
+      "referenced_by": [
+        "PRJEB43510"
+      ],
+      "role": "parent"
+    },
+    "PRJEB100764": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB101764": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB102220": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB105441": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB105535": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB105543": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB105550": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB105598": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB107049": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB107735": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB107738": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB107741": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB107744": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB107747": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB108595": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB109731": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB109965": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB109966": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB110002": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB110569": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB67580": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB73452": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB74497": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB75163": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB75165": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB75270": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB75414": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB75621": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB76507": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB76516": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB76558": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB76560": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB76562": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB76564": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB76566": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB76568": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB76570": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB76572": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB76610": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB76612": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77125": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77131": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77214": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77217": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77220": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77223": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77226": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77229": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77232": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77235": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77238": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77241": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77244": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77247": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77250": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77253": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77256": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77259": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77262": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77265": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77280": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77281": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77282": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77283": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77285": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77286": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77287": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77288": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77350": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77479": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77481": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77483": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77485": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77487": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77613": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77643": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77644": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77645": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77646": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77647": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77648": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77649": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77650": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77651": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77652": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77654": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77747": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77778": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77784": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77787": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77793": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77794": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77797": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77800": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77813": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77820": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77825": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77828": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77831": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77834": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77889": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77892": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77895": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77917": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB77928": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB78430": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB78499": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB78500": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB78501": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB78502": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB79676": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB79678": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB79680": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB79682": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB79684": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB79686": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB79688": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB79972": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB79975": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB79978": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB79981": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB79984": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB79987": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB80085": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB80817": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB81230": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB81231": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB81311": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB81312": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB81320": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB81695": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB82553": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84018": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84135": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84137": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84139": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84141": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84143": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84145": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84147": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84150": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84153": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84156": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84159": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84162": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84165": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84168": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84171": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84174": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84177": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84180": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84189": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84444": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB84446": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB85640": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB85641": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB85642": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB85943": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB85973": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB86136": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB86266": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB86343": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB86373": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB86415": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB86417": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB86418": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB86419": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB86420": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB86423": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB87465": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB87517": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB88027": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB88055": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB88057": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB88059": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB88061": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB88157": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB88545": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB88611": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB88612": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB88686": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB88688": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB89024": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB89505": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB89576": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB89585": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB89647": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB89652": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB89974": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB89984": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB90035": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB90039": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB90080": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB90081": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB90120": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB90133": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB90439": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB90442": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB90488": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB90573": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB90916": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB90918": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB90920": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB90922": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB90924": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB90926": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB90928": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB90930": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB90932": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91189": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91191": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91193": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91332": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91333": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91334": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91378": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91381": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91431": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91433": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91434": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91436": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91438": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91488": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91489": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91533": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91534": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91535": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91538": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91540": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91541": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB91556": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94390": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94391": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94392": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94393": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94586": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94589": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94592": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94595": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94598": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94601": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94604": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94607": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94610": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94613": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94616": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94619": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94622": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94625": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94628": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94631": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94634": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94637": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94640": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94643": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94646": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94925": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB94926": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB95940": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB95970": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB95974": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96039": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96084": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96179": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96181": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96183": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96185": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96346": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96352": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96354": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96355": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96358": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96367": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96368": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96369": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96371": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96372": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96377": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96378": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96380": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96405": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96409": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96411": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96485": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96486": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96488": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96490": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96492": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96495": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96498": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96499": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96500": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96508": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96511": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96512": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96516": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96519": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96522": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96525": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96528": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96531": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB96534": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    },
+    "PRJEB98373": {
+      "referenced_by": [
+        "PRJEB61747"
+      ],
+      "role": "child"
+    }
+  }
+}

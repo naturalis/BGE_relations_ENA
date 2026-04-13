@@ -1,0 +1,73 @@
+digraph ENA_Projects {
+  rankdir=TB;
+  compound=true;
+  graph [fontname="Helvetica", nodesep=0.5, ranksep=1.0, pad=0.6];
+  node  [fontname="Helvetica", fontsize=10, shape=box, style="filled,rounded", margin="0.2,0.12"];
+  edge  [fontname="Helvetica", fontsize=9, arrowsize=0.75];
+
+  "PRJNA533106" [label="PRJNA533106\n(parent — not in PNG)", fillcolor="#FADBD8", color=red, penwidth=2, style="filled,rounded,dashed"];
+
+  subgraph cluster_ERGA {
+    label="The European Reference Genome Atlas (ERGA)\nPRJEB43510";
+    fontname="Helvetica-Bold"; fontsize=12;
+    style="filled,rounded"; fillcolor="#EBF5FB"; color="#2E86C1"; penwidth=2;
+    "PRJEB43510" [label="ERGA\nPRJEB43510", fillcolor="#AED6F1"];
+    "ERGA_extra" [label="+11 other children\n(not in PNG)", fillcolor="#FADBD8", color=red, penwidth=1.5, style="filled,rounded,dashed", fontsize=9];
+  }
+
+  subgraph cluster_ERGABGE {
+    label="ERGA-BGE\nPRJEB61747";
+    fontname="Helvetica-Bold"; fontsize=11;
+    style="filled,rounded"; fillcolor="#EAF4FB"; color="#5DADE2"; penwidth=1.5;
+    "PRJEB61747" [label="ERGA-BGE\nPRJEB61747", fillcolor="#AED6F1"];
+    "ERGABGE_extra" [label="+303 genome/assembly\ndata projects\n(not in PNG)", fillcolor="#FADBD8", color=red, penwidth=1.5, style="filled,rounded,dashed", fontsize=9];
+  }
+
+  subgraph cluster_APPS {
+    label="ERGA-BGE APPLICATIONS\nPRJEB109737";
+    fontname="Helvetica-Bold"; fontsize=11;
+    style="filled,rounded"; fillcolor="#FEF9E7"; color="#F39C12"; penwidth=1.5;
+    "PRJEB109737" [label="ERGA-BGE APPLICATIONS\nPRJEB109737", fillcolor="#AED6F1"];
+    "PRJEB105536" [label="BGE WP11\nCricetus cricetus\npart2\nPRJEB105536", fillcolor="#FAD7A0"];
+    "PRJEB105601" [label="BGE WP11\nCricetus cricetus\npart1\nPRJEB105601", fillcolor="#FAD7A0"];
+    "APPS_extra" [label="+21 other WP\ndata projects\n(not in PNG)", fillcolor="#FADBD8", color=red, penwidth=1.5, style="filled,rounded,dashed", fontsize=9];
+  }
+
+  subgraph cluster_META {
+    label="BGE-metabarcoding\nPRJEB108398";
+    fontname="Helvetica-Bold"; fontsize=11;
+    style="filled,rounded"; fillcolor="#F4ECF7"; color="#8E44AD"; penwidth=1.5;
+    "PRJEB108398" [label="BGE-metabarcoding\nPRJEB108398", fillcolor="#AED6F1"];
+    "PRJEB108475" [label="Ecological Restoration\nSoil - Chronosequences\nPRJEB108475", fillcolor="#FAD7A0"];
+    "PRJEB108476" [label="Marine Invasive\nSpecies\nPRJEB108476", fillcolor="#FAD7A0"];
+
+    subgraph cluster_BULK {
+      label="Bulk-Sampling\nPRJEB108399";
+      fontname="Helvetica"; fontsize=10;
+      style="filled,rounded"; fillcolor="#EAF4FB"; color="#8E44AD"; penwidth=1;
+      "PRJEB108399" [label="Bulk-Sampling\nPRJEB108399", fillcolor="#AED6F1"];
+      "PRJEB108396" [label="PC\nPRJEB108396", fillcolor="#FAD7A0"];
+      "PRJEB108401" [label="HMS\nPRJEB108401", fillcolor="#FAD7A0"];
+    }
+  }
+
+  "PRJEB78703"  [label="BGE genome skimming\nPRJEB78703",  fillcolor="#FAD7A0"];
+  "PRJEB106061" [label="BGE - WP12\nInsect Pollinators\nPRJEB106061", fillcolor="#FAD7A0"];
+
+  // Known edges
+  "PRJNA533106" -> "PRJEB43510" [color="red", style=dashed];
+  "PRJEB43510" -> "PRJEB61747" [color="#333333", style=solid];
+  "PRJEB43510" -> "PRJEB109737" [color="#333333", style=solid];
+  "PRJEB109737" -> "PRJEB105536" [color="#333333", style=solid];
+  "PRJEB109737" -> "PRJEB105601" [color="#333333", style=solid];
+  "PRJEB108398" -> "PRJEB108399" [color="#333333", style=solid];
+  "PRJEB108398" -> "PRJEB108475" [color="#333333", style=solid];
+  "PRJEB108398" -> "PRJEB108476" [color="#333333", style=solid];
+  "PRJEB108399" -> "PRJEB108396" [color="#333333", style=solid];
+  "PRJEB108399" -> "PRJEB108401" [color="#333333", style=solid];
+
+  // Collapsed unknown-children summary edges
+  "PRJEB43510" -> "ERGA_extra" [color=red, style=dashed];
+  "PRJEB61747" -> "ERGABGE_extra" [color=red, style=dashed];
+  "PRJEB109737" -> "APPS_extra" [color=red, style=dashed];
+}
