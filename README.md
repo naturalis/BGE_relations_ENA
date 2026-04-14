@@ -148,4 +148,4 @@ dot -Tpng -Gdpi=300 output/ena_graph.dot -o output/ena_graph.png
 
 - The `<CHILD_PROJECT>` / `<PARENT_PROJECT>` tag names in the ENA XML differ from some older documentation which suggests `<IS_CHILD>` / `<IS_PARENT>` — the scripts use the correct names as verified against the live API.
 - For projects with very large numbers of children (PRJEB61747 has 303+), the graph generator collapses unknown children into a single summary node per parent to keep the output readable.
-- [view this document as html.](https://htmlpreview.github.io/?https://github.com/naturalis/BGE_relations_ENA/blob/main/index.html)
+- [view GitHub Pages (html) version this document](https://htmlpreview.github.io/?https://github.com/naturalis/BGE_relations_ENA/blob/main/index.html)
